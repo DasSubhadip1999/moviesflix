@@ -1,0 +1,117 @@
+@media screen and (max-width : 400px) {
+    .container{
+        width: 75%;
+    }
+    .website-name{
+        width: 100%;
+        font-size: 1.3rem ;
+        display: flex;
+        justify-content: center;
+    }
+    header{
+       flex-direction: column;
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        top:27px;
+        left: 26px;
+        font-size: 17px;
+    }
+    .menu{
+        width: 0%;
+        background-color: white;
+        position: absolute;
+        left: 1px;
+        top: 115px;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transition: 0.7s;
+    }
+    .menu.active{
+        width: 60%;
+    }
+    .menu.active ul{
+        display: flex;
+        opacity: 1;
+    }
+    .menu ul{
+        opacity: 0;
+        display: none;
+        width: 90%;
+        flex-direction: column;
+        justify-content: none;
+        align-items: none;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .menu ul li{
+        margin: 1rem 0;
+    }
+    .search-input{
+        width: 100%;
+        height: 10%;
+        margin-top: 15px;
+    }
+    .search-input input{
+        padding: 4px 15px;
+        font-size: 16px;
+        z-index: 0;
+    }
+    .search-input .search-icon{
+        font-size: 15px;
+    }
+    .account{
+        display: none;
+    }
+    section{
+        height: 81%;
+    }
+    .sub-section{
+        display: flex;
+        flex-direction: column;
+        top: 112px;
+        padding: 0;
+    }
+    .heading{
+        padding: 0;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    .movie-title{
+        width: 100%;
+    }
+    .movie-title h1{
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 0 3px;
+    }
+    .social{
+        width: 100%;
+        position: absolute;
+        bottom: -46px;
+        padding: 0.2rem 0;
+        background-color: rgba(0, 0, 0, 0.442);
+    }
+    .poster-container{
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .poster-container img{
+        width: 180px;
+        height: 250px;
+        outline: 1px solid black;
+        box-shadow: white 0px 5px 3px, white 0px 0px 0px 4px;
+        margin: 0;
+    }
+    .movie-details{
+        margin-top: 1.1rem;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    .text{
+        bottom: 266px;
+    }
+}

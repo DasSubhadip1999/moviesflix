@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesFlix</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <script src="https://kit.fontawesome.com/f724637ece.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div class="website-name"><span>Movies</span><span>Flix</span></div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Movies</li>
+                    <li>Series</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="search-input">
+                <input type="text" name="" id="input" placeholder="Search Movies">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="account">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </header>
+        <section></section>
+        <div class="sub-section">
+            <div class="heading">
+                <div class="movie-title">
+                    <h1></h1>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="poster-container">
+                <img src="" alt="This Movie Poster Not Available">
+                <div class="movie-details"></div>
+            </div>
+        </div>
+        <!-- background blur on alert pop up -->
+        <div class="alert-bg"></div>
+        <!-- alert box when data not found -->
+        <div class="alert-box">
+            <div class="alert-heading">This Movie Not Found</div>
+            <div class="timer-btn">
+                <div class="timer">This pop will close in <span>5</span> seconds</div>
+                <div class="alert-btn"><button>Close</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- loading animation -->
+    <div class="loading-screen">
+        <div class="wrapper">
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="text">Please Wait</div>
+    </div>
+    <footer>&#169; 2022 Subhadip Das. All rights reserved.</footer>
+    <script src="JS/index.js"></script>
+</body>
+</html>
